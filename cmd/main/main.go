@@ -8,7 +8,7 @@ import (
 
 func main() {
 	helloHandler := func(w http.ResponseWriter, req *http.Request) {
-		io.WriteString(w, "Go Team")
+		io.WriteString(w, "Go Bananas")
 	}
 
 	http.HandleFunc("/hello", helloHandler)
