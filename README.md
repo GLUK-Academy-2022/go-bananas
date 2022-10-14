@@ -27,6 +27,8 @@ In your terminal, run the following command to pull the latest version:
 docker pull jaykeharrison/go-bananas
 ```
 
+Alternatively, visit https://hub.docker.com/r/jaykeharrison/go-bananas for potential alternative versions
+
 ### Run Imagine Inside Container
 To run the image inside a container, run the following command:
 ```
