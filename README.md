@@ -40,7 +40,7 @@ docker container run -p <your-chosen-port>:8080 jaykeharrison/go-bananas
 ### Access Endpoints
 Perform your requests to the available endpoints on the following url:
 
-`http://localhost:\<your-chosen-port>`
+`http://localhost:<your-chosen-port>`
 
 Where `<your-chosen-port>` is the what you chose when running the image
 
