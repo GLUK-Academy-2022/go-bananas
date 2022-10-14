@@ -13,6 +13,6 @@ func main() {
 
 	http.HandleFunc("/hello", helloHandler)
 
-	log.Println("app listing on port 8000")
-	log.Fatal(http.ListenAndServe(":8000", nil))
+	log.Println("app listing on port 8080")
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
