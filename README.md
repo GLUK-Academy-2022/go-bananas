@@ -33,14 +33,14 @@ To run the image inside a container, run the following command:
 docker container run -p <your-chosen-port>:8080 jaykeharrison/go-bananas
 ```
 
-*important* replace `<your-chosen-port>` with the port of your choice
+**important:** replace \<your-chosen-port> with the port of your choice
 
 ### Access Endpoints
 Perform your requests to the available endpoints on the following url:
 
-http://localhost:`<your-chosen-port>`
+http://localhost:\<your-chosen-port>
 
-Where `<your-chosen-port>`is the what you chose when running the image
+Where \<your-chosen-port> is the what you chose when running the image
 
 Example (port = 8080):
 ```
